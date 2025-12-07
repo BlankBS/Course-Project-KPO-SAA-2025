@@ -1,0 +1,29 @@
+﻿  CodeGeneration.cpp
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\CodeGeneration.cpp(20,16): warning C4101: func: неиспользованная локальная переменная
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\CodeGeneration.cpp(671,14): warning C4129: "e": нераспознанная escape-последовательность символов
+  FST.cpp
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\FST.cpp(118,16): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\FST.cpp(1266,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\FST.cpp(1272,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\FST.cpp(1566,18): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  GRB.cpp
+  In.cpp
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\In.cpp(126,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  IT.cpp
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\IT.cpp(96,35): warning C4805: !=: небезопасное смешение типа "short" и типа "bool" в операции
+  Log.cpp
+  LT.cpp
+  MFST.cpp
+  Out.cpp
+  Parm.cpp
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\Parm.cpp(19,44): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\Parm.cpp(19,26): warning C4267: инициализация: преобразование из "size_t" в "const int"; возможна потеря данных
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\Parm.cpp(20,11): warning C4101: wst: неиспользованная локальная переменная
+  PolishNotation.cpp
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\PolishNotation.cpp(76,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  SAA-2025.cpp
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\SAA-2025.cpp(33,44): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\SAA-2025.cpp(33,74): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Semantic.cpp
+  Создание кода...
+  SAA-2025.vcxproj -> D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\x64\Debug\SAA-2025.exe

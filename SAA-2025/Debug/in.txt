@@ -1,0 +1,54 @@
+$Функция нахождения факториала от числа
+declare ubyte func FindFactorial(ubyte a){
+declare ubyte answer;
+	answer = 1;
+	do
+	[
+	answer = answer*a;	
+	a = a - 1;
+	out a;
+	] while(a > 1);
+	return answer;
+	};
+main
+{
+add string func GetDate();
+add string func GetTime();
+declare string date;
+declare string time;
+date = GetDate();
+time = GetTime();
+out date;
+out time;
+declare char ch;
+ch = 'Z' - ' ';
+out "'Z' - ' '(space)";
+out ch;
+ch = 'A' + '	'; 
+out "'A' + '	'(tabulation)";
+out ch;
+declare ubyte result;
+declare ubyte first;
+declare ubyte second;
+first = 2;
+second = 4;
+result = FindFactorial(first) + FindFactorial(second);
+out "!2 + !5";
+out result;
+declare ubyte a;
+a = 3;
+result = ~(240 | 15) + (127 & 8) : (2-1);
+out "~(240 | 15) + (127 & 8) : 3 = "; 
+out result;
+declare bool bc;
+if(bc)
+[
+out "condition that will not work";
+];
+bc = true;
+if(bc)
+[
+out "condition that will work";
+];
+return 0;
+}

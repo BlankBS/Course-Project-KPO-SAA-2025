@@ -1,0 +1,4 @@
+﻿  FST.cpp
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\FST.cpp(118,16): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\SAA-2025\FST.cpp(1369,26): warning C4018: <: несоответствие типов со знаком и без знака
+  SAA-2025.vcxproj -> D:\BSTU\Course-Project-KPO-SAA-2025\SAA-2025\Debug\SAA-2025.exe
