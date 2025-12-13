@@ -78,7 +78,7 @@ namespace CG {
 								pos++;
 							}
 							*stream << '\n';
-							*stream << "push eax ;��������� �������";
+							*stream << "push eax ;результат функции";
 							*stream << '\n';
 						}
 					}
@@ -101,7 +101,7 @@ namespace CG {
 							break;
 						}
 						case ':': {
-							*stream << "push edx ; ��������� ������ �������� edx" << '\n';
+							*stream << "push edx ; сохраняем данные регистра edx" << '\n';
 							*stream << "mov edx, 0" << '\n';
 							*stream << "TEST  EBX, EBX" << '\n';
 							*stream << "JZ    div_by_0" << '\n';
@@ -110,7 +110,7 @@ namespace CG {
 							break;
 						}
 						case '%': {
-							*stream << "push edx ; ��������� ������ �������� edx" << '\n';
+							*stream << "push edx ; сохраняем данные регистра edx" << '\n';
 							*stream << "mov edx, 0" << '\n';
 							*stream << "TEST  EBX, EBX" << '\n';
 							*stream << "JZ    div_by_0" << '\n';
@@ -121,14 +121,14 @@ namespace CG {
 						}
 
 						case '/': {
-							*stream << "push ecx ; ��������� ������ �������� ecx" << '\n';
+							*stream << "push ecx ; сохраняем данные регистра ecx" << '\n';
 							*stream << "mov ecx, ebx" << '\n';
 							*stream << "SHL eax, cl" << '\n';
 							*stream << "pop ecx" << '\n';
 							break;
 						}
 						case '\\': {
-							*stream << "push ecx ; ��������� ������ �������� ecx" << '\n';
+							*stream << "push ecx ; сохраняем данные регистра ecx" << '\n';
 							*stream << "mov ecx, ebx" << '\n';
 							*stream << "SHR eax, cl" << '\n';
 							*stream << "pop ecx" << '\n';
@@ -626,7 +626,7 @@ namespace CG {
 	}
 	void Constants(std::ofstream* stream, LEX::LEX t) {
 		*stream << ".const\n";
-		*stream << "divideOnZeroExeption BYTE \"������� ������� �� ����.\", 0  ;STR, ��� ������ ������ ��� ������� �� ����\n";
+		*stream << "divideOnZeroExeption BYTE \"Trying devide on zero\", 0 \n";
 		for (int i = 0; i < t.idtable.size; i++)
 		{
 			if (t.idtable.table[i].idtype == IT::L)

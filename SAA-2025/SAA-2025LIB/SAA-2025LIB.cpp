@@ -19,7 +19,7 @@ extern "C"
 		return (unsigned char)number;
 	}
 
-	char* __stdcall GetDate()
+	char* __stdcall CurrentDate()
 	{
 		time_t rawtime;
 		struct tm timeinfo;
@@ -37,7 +37,7 @@ extern "C"
 		return str;
 	}
 
-	char* __stdcall GetTime() {
+	char* __stdcall CurrentTime() {
 		time_t rawtime;
 		struct tm timeinfo;
 		time(&rawtime);

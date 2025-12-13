@@ -3,7 +3,7 @@
 #define IN_MAX_LEN_TEXT 1024*1024
 #define IN_CODE_ENDL '\n'
 #define DIVIDE ';'
-#define MAX_LEXEM_LENGTH 16
+#define MAX_LEXEM_LENGTH 20
 #include <list>
 #define IN_CODE_TABLE {\
 IN::T,IN::F,IN::F,IN::F,IN::F,IN::F,IN::F,IN::F,IN::F,IN::S,IN::N,IN::F,IN::F,IN::T,IN::F,IN::F,\

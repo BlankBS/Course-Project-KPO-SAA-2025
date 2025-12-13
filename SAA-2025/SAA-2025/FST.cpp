@@ -128,8 +128,8 @@ bool FST::execute(FST& fst)
 }
 void FST::LexAnalyzer(In::IN in, Out::OUT out, Log::LOG log, LT::LexTable& lextable, IT::IdTable& idtable)
 {
-	libfuncs libs[7];
-	int libslen = 7;
+	libfuncs libs[12];
+	int libslen = 12;
 	libs[1].name = "ord";
 	libs[1].params[0] = IT::CHR;
 	libs[1].parcount = 1;
@@ -140,11 +140,11 @@ void FST::LexAnalyzer(In::IN in, Out::OUT out, Log::LOG log, LT::LexTable& lexta
 	libs[2].parcount = 1;
 	libs[2].retval = IT::CHR;
 
-	libs[3].name = "GetDate";
+	libs[3].name = "CurrentDate";
 	libs[3].parcount = 0;
 	libs[3].retval = IT::STR;
 
-	libs[4].name = "GetTime";
+	libs[4].name = "CurrentTime";
 	libs[4].parcount = 0;
 	libs[4].retval = IT::STR;
 

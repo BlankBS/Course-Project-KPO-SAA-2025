@@ -3,44 +3,56 @@
   "WorkspaceRootPath": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A88610D-D723-4816-95CE-EE0B992C8E09}|SAA-2025LIB\\SAA-2025LIB.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025LIB\\SAA-2025LIB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5A88610D-D723-4816-95CE-EE0B992C8E09}|SAA-2025LIB\\SAA-2025LIB.vcxproj|solutionrelative:SAA-2025LIB\\SAA-2025LIB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\FST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\FST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A88610D-D723-4816-95CE-EE0B992C8E09}|SAA-2025LIB\\SAA-2025LIB.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025LIB\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5A88610D-D723-4816-95CE-EE0B992C8E09}|SAA-2025LIB\\SAA-2025LIB.vcxproj|solutionrelative:SAA-2025LIB\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\LT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\LT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A88610D-D723-4816-95CE-EE0B992C8E09}|SAA-2025LIB\\SAA-2025LIB.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025LIB\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5A88610D-D723-4816-95CE-EE0B992C8E09}|SAA-2025LIB\\SAA-2025LIB.vcxproj|solutionrelative:SAA-2025LIB\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\Semantic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\Semantic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\Semantic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\Semantic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\IT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\IT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\PolishNotation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\PolishNotation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5A88610D-D723-4816-95CE-EE0B992C8E09}|SAA-2025LIB\\SAA-2025LIB.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025LIB\\SAA-2025LIB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5A88610D-D723-4816-95CE-EE0B992C8E09}|SAA-2025LIB\\SAA-2025LIB.vcxproj|solutionrelative:SAA-2025LIB\\SAA-2025LIB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\CodeGeneration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\CodeGeneration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\SAA-2025.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\SAA-2025.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\MFST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\MFST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\LT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\LT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\IT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\IT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\GRB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\GRB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\Parm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\Parm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\MFST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\MFST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\LEX.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\LEX.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\Error.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\Error.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3B9243A-6208-4DAC-A609-7ABC4BA9F6E1}|SAA-2025\\SAA-2025.vcxproj|solutionrelative:SAA-2025\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,55 +62,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "pch.h",
-              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025LIB\\pch.h",
-              "RelativeDocumentMoniker": "SAA-2025LIB\\pch.h",
-              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025LIB\\pch.h",
-              "RelativeToolTip": "SAA-2025LIB\\pch.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-07T16:30:27.647Z"
+              "DocumentIndex": 3,
+              "Title": "CodeGeneration.cpp",
+              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\CodeGeneration.cpp",
+              "RelativeDocumentMoniker": "SAA-2025\\CodeGeneration.cpp",
+              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\CodeGeneration.cpp",
+              "RelativeToolTip": "SAA-2025\\CodeGeneration.cpp",
+              "ViewState": "AgIAAEwCAAAAAAAAAAAAAE8CAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-11T13:17:56.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "framework.h",
-              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025LIB\\framework.h",
-              "RelativeDocumentMoniker": "SAA-2025LIB\\framework.h",
-              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025LIB\\framework.h",
-              "RelativeToolTip": "SAA-2025LIB\\framework.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FST.cpp",
+              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\FST.cpp",
+              "RelativeDocumentMoniker": "SAA-2025\\FST.cpp",
+              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\FST.cpp",
+              "RelativeToolTip": "SAA-2025\\FST.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-07T16:21:32.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LT.cpp",
+              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\LT.cpp",
+              "RelativeDocumentMoniker": "SAA-2025\\LT.cpp",
+              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\LT.cpp",
+              "RelativeToolTip": "SAA-2025\\LT.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-11T13:17:21.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MFST.h",
+              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\MFST.h",
+              "RelativeDocumentMoniker": "SAA-2025\\MFST.h",
+              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\MFST.h",
+              "RelativeToolTip": "SAA-2025\\MFST.h",
+              "ViewState": "AgIAADUAAAAAAAAAAADwv0cAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-07T16:30:27.086Z"
+              "WhenOpened": "2025-12-07T20:00:05.413Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Semantic.cpp",
-              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\Semantic.cpp",
-              "RelativeDocumentMoniker": "SAA-2025\\Semantic.cpp",
-              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\Semantic.cpp",
-              "RelativeToolTip": "SAA-2025\\Semantic.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwCgAAAAHAAAAAAAAAA==",
+              "Title": "MFST.cpp",
+              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\MFST.cpp",
+              "RelativeDocumentMoniker": "SAA-2025\\MFST.cpp",
+              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\MFST.cpp",
+              "RelativeToolTip": "SAA-2025\\MFST.cpp",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAAwPsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-07T16:29:52.957Z"
+              "WhenOpened": "2025-12-07T20:00:03.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Semantic.h",
-              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\Semantic.h",
-              "RelativeDocumentMoniker": "SAA-2025\\Semantic.h",
-              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\Semantic.h",
-              "RelativeToolTip": "SAA-2025\\Semantic.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "GRB.cpp",
+              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\GRB.cpp",
+              "RelativeDocumentMoniker": "SAA-2025\\GRB.cpp",
+              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\GRB.cpp",
+              "RelativeToolTip": "SAA-2025\\GRB.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-09T12:16:43.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Error.h",
+              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\Error.h",
+              "RelativeDocumentMoniker": "SAA-2025\\Error.h",
+              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\Error.h",
+              "RelativeToolTip": "SAA-2025\\Error.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-07T16:29:49.433Z"
+              "WhenOpened": "2025-12-07T20:17:42.449Z"
             },
             {
               "$type": "Document",
@@ -114,65 +163,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "LT.h",
+              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\LT.h",
+              "RelativeDocumentMoniker": "SAA-2025\\LT.h",
+              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\LT.h",
+              "RelativeToolTip": "SAA-2025\\LT.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-07T20:17:30.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SAA-2025LIB.cpp",
               "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025LIB\\SAA-2025LIB.cpp",
               "RelativeDocumentMoniker": "SAA-2025LIB\\SAA-2025LIB.cpp",
               "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025LIB\\SAA-2025LIB.cpp",
               "RelativeToolTip": "SAA-2025LIB\\SAA-2025LIB.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-07T16:27:34.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T16:27:34.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FST.cpp",
-              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\FST.cpp",
-              "RelativeDocumentMoniker": "SAA-2025\\FST.cpp",
-              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\FST.cpp",
-              "RelativeToolTip": "SAA-2025\\FST.cpp",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAkwJEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-07T16:21:32.378Z",
-              "EditorCaption": ""
+              "DocumentIndex": 10,
+              "Title": "LEX.h",
+              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\LEX.h",
+              "RelativeDocumentMoniker": "SAA-2025\\LEX.h",
+              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\LEX.h",
+              "RelativeToolTip": "SAA-2025\\LEX.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-07T20:18:18.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PolishNotation.cpp",
-              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\PolishNotation.cpp",
-              "RelativeDocumentMoniker": "SAA-2025\\PolishNotation.cpp",
-              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\PolishNotation.cpp",
-              "RelativeToolTip": "SAA-2025\\PolishNotation.cpp",
-              "ViewState": "AgIAALoAAAAAAAAAAAAAAMoAAAArAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Error.cpp",
+              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\Error.cpp",
+              "RelativeDocumentMoniker": "SAA-2025\\Error.cpp",
+              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\Error.cpp",
+              "RelativeToolTip": "SAA-2025\\Error.cpp",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAwwGwAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-05T11:53:16.929Z"
+              "WhenOpened": "2025-12-07T17:16:43.017Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "CodeGeneration.cpp",
-              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\CodeGeneration.cpp",
-              "RelativeDocumentMoniker": "SAA-2025\\CodeGeneration.cpp",
-              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\CodeGeneration.cpp",
-              "RelativeToolTip": "SAA-2025\\CodeGeneration.cpp",
-              "ViewState": "AgIAAH0BAAAAAAAAAAAnwI0BAAATAAAAAAAAAA==",
+              "Title": "Parm.cpp",
+              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\Parm.cpp",
+              "RelativeDocumentMoniker": "SAA-2025\\Parm.cpp",
+              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\Parm.cpp",
+              "RelativeToolTip": "SAA-2025\\Parm.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-04T12:47:44.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SAA-2025.cpp",
-              "DocumentMoniker": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\SAA-2025.cpp",
-              "RelativeDocumentMoniker": "SAA-2025\\SAA-2025.cpp",
-              "ToolTip": "D:\\BSTU\\Course-Project-KPO-SAA-2025\\SAA-2025\\SAA-2025\\SAA-2025.cpp",
-              "RelativeToolTip": "SAA-2025\\SAA-2025.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADwAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-03T13:37:59.526Z"
+              "WhenOpened": "2025-12-07T17:15:34.246Z"
             }
           ]
         }

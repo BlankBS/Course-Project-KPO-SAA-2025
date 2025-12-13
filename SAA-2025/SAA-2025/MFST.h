@@ -40,7 +40,7 @@ namespace MFST
 	};
 	struct Mfst
 	{
-		enum RC_STEP {
+		enum RC_STEP {	
 			NS_OK,
 			NS_NORULE,
 			NS_NORULECHAIN,
