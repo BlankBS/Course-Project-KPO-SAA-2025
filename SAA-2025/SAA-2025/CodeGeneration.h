@@ -10,3 +10,4 @@ namespace CG {
 	void WriteFunctions(std::ofstream* stream, LEX::LEX t);
 	void Code(std::ofstream* stream, LEX::LEX t);
 }
+

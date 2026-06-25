@@ -9,5 +9,5 @@ namespace Semantic
 	void operands(LEX::LEX t);
 	void returns(LEX::LEX t);
 	void parameters(LEX::LEX t);
-
 }
+

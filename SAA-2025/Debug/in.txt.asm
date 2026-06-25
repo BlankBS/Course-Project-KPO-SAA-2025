@@ -19,34 +19,38 @@ outputbool PROTO :BYTE
 divideOnZeroExeption BYTE "Trying devide on zero", 0 
 	CalculateFac_$LEX1 BYTE 1 ;UBYTE
 	main$LEX4 BYTE "------", 0  ;STR
-	main$LEX5 BYTE "Factorial:", 0  ;STR
-	main$LEX6 BYTE 3 ;UBYTE
-	main$LEX7 BYTE 4 ;UBYTE
-	main$LEX8 BYTE "!3 + !4", 0  ;STR
-	main$LEX9 BYTE 1 ;BOOL
-	main$LEX11 BYTE "bitwise operations in condition:", 0  ;STR
-	main$LEX12 BYTE 66 ;UBYTE
-	main$LEX13 BYTE 11 ;UBYTE
-	main$LEX14 BYTE 72 ;UBYTE
-	main$LEX15 BYTE 80 ;UBYTE
-	main$LEX16 BYTE 2 ;UBYTE
-	main$LEX18 BYTE "((66 | 11) + 72) & 80 : (2 - 1) = ", 0  ;STR
-	main$LEX20 BYTE "Char operations:", 0  ;STR
-	main$LEX21 BYTE 'Z' ;CHR
-	main$LEX22 BYTE 'z' ;CHR
-	main$LEX23 BYTE "'Z' - 'z':", 0  ;STR
-	main$LEX24 BYTE 'a' ;CHR
-	main$LEX25 BYTE 'b' ;CHR
-	main$LEX26 BYTE "'a' + 'b':", 0  ;STR
-	main$LEX27 BYTE 0 ;BOOL
-	main$LEX28 BYTE 'A' ;CHR
-	main$LEX29 BYTE 'B' ;CHR
-	main$LEX30 BYTE "'A' + 'B':", 0  ;STR
-	main$LEX32 BYTE "date:", 0  ;STR
-	main$LEX33 BYTE "time:", 0  ;STR
-	main$LEX34 BYTE 0 ;UBYTE
+	main$LEX5 BYTE "while:", 0  ;STR
+	main$LEX6 BYTE 10 ;UBYTE
+	main$LEX7 BYTE 0 ;UBYTE
+	main$LEX10 BYTE "Factorial:", 0  ;STR
+	main$LEX11 BYTE 3 ;UBYTE
+	main$LEX12 BYTE 4 ;UBYTE
+	main$LEX13 BYTE "!3 + !4", 0  ;STR
+	main$LEX14 BYTE 1 ;BOOL
+	main$LEX16 BYTE "bitwise operations in condition:", 0  ;STR
+	main$LEX17 BYTE 66 ;UBYTE
+	main$LEX18 BYTE 11 ;UBYTE
+	main$LEX19 BYTE 72 ;UBYTE
+	main$LEX20 BYTE 80 ;UBYTE
+	main$LEX21 BYTE 2 ;UBYTE
+	main$LEX23 BYTE "((66 | 11) + 72) & 80 : (2 - 1) = ", 0  ;STR
+	main$LEX25 BYTE "Char operations:", 0  ;STR
+	main$LEX26 BYTE 'Z' ;CHR
+	main$LEX27 BYTE 'z' ;CHR
+	main$LEX28 BYTE "'Z' - 'z':", 0  ;STR
+	main$LEX29 BYTE 'a' ;CHR
+	main$LEX30 BYTE 'b' ;CHR
+	main$LEX31 BYTE "'a' + 'b':", 0  ;STR
+	main$LEX32 BYTE 0 ;BOOL
+	main$LEX33 BYTE 'A' ;CHR
+	main$LEX34 BYTE 'B' ;CHR
+	main$LEX35 BYTE "'A' + 'B':", 0  ;STR
+	main$LEX37 BYTE "date:", 0  ;STR
+	main$LEX38 BYTE "time:", 0  ;STR
+	main$LEX39 BYTE 0 ;UBYTE
 .data
 	CalculateFac_result BYTE 0 ;UBYTE
+	maina BYTE 0 ;UBYTE
 	mainresult BYTE 0 ;UBYTE
 	mainbValue BYTE 0 ;BOOL
 	mainc BYTE 0 ;CHR
@@ -110,10 +114,48 @@ CALL outputstr
 push offset main$LEX5
 CALL outputstr
 
-; String #18 :ivil@1il@1v
-invoke $CalculateFac, main$LEX6
+; String #18 :ivl
+movzx eax, main$LEX6
+push eax 
+pop eax
+mov maina, al
+
+While63Start: 
+movzx eax, maina
+movzx ebx, main$LEX7
+cmp eax, ebx
+jbe While63End
+push eax
+movzx eax, maina
+push eax
+CALL outputubyte
+pop eax
+
+
+; String #22 :ivilv
+movzx eax, maina
+push eax 
+movzx eax, CalculateFac_$LEX1
+push eax 
+pop ebx
+pop eax
+sub eax, ebx
+push eax
+pop eax
+mov maina, al
+jmp While63Start
+While63End: 
+
+push offset main$LEX4
+CALL outputstr
+
+push offset main$LEX10
+CALL outputstr
+
+; String #28 :ivil@1il@1v
+invoke $CalculateFac, main$LEX11
 push eax ;результат функции
-invoke $CalculateFac, main$LEX7
+invoke $CalculateFac, main$LEX12
 push eax ;результат функции
 pop ebx
 pop eax
@@ -122,7 +164,7 @@ push eax
 pop eax
 mov mainresult, al
 
-push offset main$LEX8
+push offset main$LEX13
 CALL outputstr
 push eax
 movzx eax, mainresult
@@ -131,46 +173,46 @@ CALL outputubyte
 pop eax
 
 
-; String #23 :ivl
-movzx eax, main$LEX9
+; String #33 :ivl
+movzx eax, main$LEX14
 push eax 
 pop eax
 mov mainbValue, al
 
-If85Start: 
+If117Start: 
 movzx eax, mainbValue
 mov ebx, 1
 cmp eax, ebx
-jnz If85End
+jnz If117End
 
 push offset main$LEX4
 CALL outputstr
 
-push offset main$LEX11
+push offset main$LEX16
 CALL outputstr
 
-; String #28 :ivllvlvlvllvv######
-movzx eax, main$LEX12
+; String #38 :ivllvlvlvllvv######
+movzx eax, main$LEX17
 push eax 
-movzx eax, main$LEX13
+movzx eax, main$LEX18
 push eax 
 pop ebx
 pop eax
 or eax, ebx 
 push eax
-movzx eax, main$LEX14
+movzx eax, main$LEX19
 push eax 
 pop ebx
 pop eax
 add eax, ebx 
 push eax
-movzx eax, main$LEX15
+movzx eax, main$LEX20
 push eax 
 pop ebx
 pop eax
 and eax, ebx 
 push eax
-movzx eax, main$LEX16
+movzx eax, main$LEX21
 push eax 
 movzx eax, CalculateFac_$LEX1
 push eax 
@@ -190,7 +232,7 @@ push eax
 pop eax
 mov mainresult, al
 
-push offset main$LEX18
+push offset main$LEX23
 CALL outputstr
 push eax
 movzx eax, mainresult
@@ -198,18 +240,18 @@ push eax
 CALL outputubyte
 pop eax
 
-If85End: 
+If117End: 
 
 push offset main$LEX4
 CALL outputstr
 
-push offset main$LEX20
+push offset main$LEX25
 CALL outputstr
 
-; String #36 :ivllv
-movzx eax, main$LEX21
+; String #46 :ivllv
+movzx eax, main$LEX26
 push eax 
-movzx eax, main$LEX22
+movzx eax, main$LEX27
 push eax 
 pop ebx
 pop eax
@@ -218,7 +260,7 @@ push eax
 pop eax
 mov mainc, al
 
-push offset main$LEX23
+push offset main$LEX28
 CALL outputstr
 push eax
 movzx eax, mainc
@@ -227,10 +269,10 @@ CALL outputchar
 pop eax
 
 
-; String #39 :ivllv
-movzx eax, main$LEX24
+; String #49 :ivllv
+movzx eax, main$LEX29
 push eax 
-movzx eax, main$LEX25
+movzx eax, main$LEX30
 push eax 
 pop ebx
 pop eax
@@ -239,7 +281,7 @@ push eax
 pop eax
 mov mainc, al
 
-push offset main$LEX26
+push offset main$LEX31
 CALL outputstr
 push eax
 movzx eax, mainc
@@ -248,22 +290,22 @@ CALL outputchar
 pop eax
 
 
-; String #42 :ivl
-movzx eax, main$LEX27
+; String #52 :ivl
+movzx eax, main$LEX32
 push eax 
 pop eax
 mov mainbValue, al
 
-If162Start: 
+If194Start: 
 movzx eax, mainbValue
 mov ebx, 1
 cmp eax, ebx
-jnz If162End
+jnz If194End
 
-; String #45 :ivllv
-movzx eax, main$LEX28
+; String #55 :ivllv
+movzx eax, main$LEX33
 push eax 
-movzx eax, main$LEX29
+movzx eax, main$LEX34
 push eax 
 pop ebx
 pop eax
@@ -272,7 +314,7 @@ push eax
 pop eax
 mov mainc, al
 
-push offset main$LEX30
+push offset main$LEX35
 CALL outputstr
 push eax
 movzx eax, mainc
@@ -280,34 +322,34 @@ push eax
 CALL outputchar
 pop eax
 
-If162End: 
+If194End: 
 
 push offset main$LEX4
 CALL outputstr
 
-; String #55 :ivi@0
+; String #65 :ivi@0
 invoke CurrentDate
 push eax ;результат функции
 pop maindateNow
 
-; String #56 :ivi@0
+; String #66 :ivi@0
 invoke CurrentTime
 push eax ;результат функции
 pop maintimeNow
 
-push offset main$LEX32
+push offset main$LEX37
 CALL outputstr
 
 push maindateNow
 CALL outputstr
 
-push offset main$LEX33
+push offset main$LEX38
 CALL outputstr
 
 push maintimeNow
 CALL outputstr
 
-movzx eax, main$LEX34
+movzx eax, main$LEX39
 	jmp endPoint
 	div_by_0:
 	push offset divideOnZeroExeption

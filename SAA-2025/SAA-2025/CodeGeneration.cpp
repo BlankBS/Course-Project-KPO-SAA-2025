@@ -265,11 +265,11 @@ namespace CG {
 							}
 
 							case '<': {
-								oper = "jl";
+								oper = "jae";
 								break;
 							}
 							case '>': {
-								oper = "ja";
+								oper = "jbe";
 								break;
 							}
 							}
@@ -324,7 +324,6 @@ namespace CG {
 				}
 			}
 			else if (t.lextable.table[i].lexema == LEX_DO) {
-				// do-while loop: do [ body ] while ( condition );
 				int pos = 1;
 				int doWhileNumber = i + salt;
 				int leftSquareCount = 0;
@@ -336,14 +335,12 @@ namespace CG {
 				IT::Entry* firstId = nullptr, * secondId = nullptr;
 				std::string oper;
 
-				// Find the start of body
 				while (t.lextable.table[i + pos].lexema != LEX_LEFT_SQUAREBRACE)
 					pos++;
 				bodyStart = i + pos + 1;
 				pos++;
 				leftSquareCount = 1;
-
-				// Find the end of body and start of condition
+				
 				while (leftSquareCount > 0) {
 					if (t.lextable.table[i + pos].lexema == LEX_LEFT_SQUAREBRACE)
 						leftSquareCount++;
@@ -351,19 +348,16 @@ namespace CG {
 						leftSquareCount--;
 					pos++;
 				}
-				// Now we're after ], next should be while
 				int bodyEnd = i + pos - 1;
 
-				// Skip 'while' and find condition
 				while (t.lextable.table[i + pos].lexema != LEX_UNTIL)
 					pos++;
-				pos++; // skip 'while'
+				pos++;
 				while (t.lextable.table[i + pos].lexema != LEX_LEFTHESIS)
 					pos++;
-				pos++; // skip '('
+				pos++; 
 				conditionStart = i + pos;
 
-				// Parse condition
 				int conditionPos = 0;
 				while (t.lextable.table[conditionStart + conditionPos].lexema != LEX_RIGHTHESIS) {
 					switch (t.lextable.table[conditionStart + conditionPos].lexema) {
@@ -395,11 +389,9 @@ namespace CG {
 				}
 				conditionEnd = conditionStart + conditionPos;
 
-				// Generate code: body -> condition check -> jump back
 				*stream << "\nDoWhile" << doWhileNumber << "Start: " << '\n';
 				InvokeExpressions(stream, t, bodyStart, bodyEnd, salt + 1);
 				
-				// Generate condition check
 				if (firstId != nullptr) {
 					if (firstId->iddatatype != IT::STR)
 						*stream << "movzx eax, " << firstId->id << '\n';
@@ -420,7 +412,6 @@ namespace CG {
 				}
 				*stream << "DoWhile" << doWhileNumber << "End: " << '\n';
 
-				// Skip to end of do-while statement
 				while (t.lextable.table[i + pos].lexema != LEX_SEMICOLON)
 					pos++;
 				i += pos;

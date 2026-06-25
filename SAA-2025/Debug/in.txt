@@ -13,6 +13,16 @@ declare ubyte func CalculateFactorial(ubyte number) {
 main
 {
   out "------";
+  out "while:";
+  declare ubyte a;
+  a = 10;
+  while(a > 0)
+  [
+    out a;
+    a = a - 1;
+  ];
+
+  out "------";
   out "Factorial:";
   declare ubyte result;
   result = CalculateFactorial(3) + CalculateFactorial(4);

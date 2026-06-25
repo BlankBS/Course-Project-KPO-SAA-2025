@@ -181,10 +181,10 @@ namespace MFST
 					MFST_TRACE4_CONSOLE("------>LENTA_END")
 			}
 			*log.stream << "-------------------------------------------------------------------------------------" << std::endl;
-			sprintf_s(buf, MFST_DIAGN_MAXSIZE, "%d:всего строк %d, синтаксический анализ выполнен без ошибок ", 0, lenta_size);
-			*log.stream << std::setw(4) << std::left << 0 << ":всего строк " << lenta_size << ", синтаксический анализ выполнен без ошибок " << std::endl;
+			sprintf_s(buf, MFST_DIAGN_MAXSIZE, "синтаксический анализ выполнен без ошибок ");
+			*log.stream << std::setw(4) << std::left << ", синтаксический анализ выполнен без ошибок " << std::endl;
 			std::cout << "-------------------------------------------------------------------------------------" << std::endl;
-			std::cout << std::setw(4) << std::left << 0 << ":всего строк " << lenta_size << ", синтаксический анализ выполнен без ошибок " << std::endl;
+			std::cout << std::setw(4) << std::left << ", синтаксический анализ выполнен без ошибок " << std::endl;
 			rc = true;
 			break;
 		case NS_NORULE:
